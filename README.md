@@ -1,3 +1,5 @@
-# designPattern
+# designPattern #
 
-web: www.oodesign.com
+> References:
+    1. www.oodesign.com
+
