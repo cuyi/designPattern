@@ -4,8 +4,9 @@
 class Product
 {
 public:
-    Product() = delete;
-    virtual ~Product() = 0;
+    virtual ~Product() {};
+protected:
+    Product() = default;
 };
 
 class ConcreteProduct : public Product

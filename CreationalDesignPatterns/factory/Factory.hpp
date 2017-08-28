@@ -1,5 +1,4 @@
 // Factory.hpp
-
 #pragma once
 
 class Product;
@@ -7,9 +6,10 @@ class Product;
 class Factory
 {
 public:
-    Factory() = delete;
-    virtual~ Factory() = 0;
+    virtual ~Factory() {};
     virtual Product* CreateProduct() = 0;
+protected:
+    Factory() = default;
 };
 
 class ConcreteFactory : public Factory
@@ -19,3 +19,4 @@ public:
     ~ConcreteFactory();
     Product* CreateProduct();
 };
+

@@ -1,8 +1,10 @@
 // Factory.cpp
 
 #include "Factory.hpp"
-#include "Product"
+#include "Product.hpp"
 #include <iostream>
+
+using namespace std;
 
 ConcreteFactory::ConcreteFactory()
 {
@@ -14,7 +16,7 @@ ConcreteFactory::~ConcreteFactory()
     cout << "ConcreteFactory destructor" << endl;
 }
 
-Product* ConcreteFactory::CtreateProduct()
+Product* ConcreteFactory::CreateProduct()
 {
     return new ConcreteProduct();
 }

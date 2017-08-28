@@ -10,7 +10,7 @@ ConcreteProduct::ConcreteProduct()
     cout << "ConreteProduct constructor" << endl;
 }
 
-ConreteProduct::~ConcreteProduct()
+ConcreteProduct::~ConcreteProduct()
 {
     cout << "ConcreteProduct destructor" << endl;
 }
