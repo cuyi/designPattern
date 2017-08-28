@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 class singleton{
-protected:
+private:
     singleton()
     {
         pthread_mutex_init(&mutex, nullptr);
