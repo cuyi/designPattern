@@ -6,7 +6,7 @@ class Product;
 class Factory
 {
 public:
-    virtual ~Factory() {};
+    virtual ~Factory() = 0;
     virtual Product* CreateProduct() = 0;
 protected:
     Factory() = default;

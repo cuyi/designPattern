@@ -6,6 +6,11 @@
 
 using namespace std;
 
+Factory::~Factory()
+{
+
+}
+
 ConcreteFactory::ConcreteFactory()
 {
     cout << "ConcreteFactory constructor" << endl;
